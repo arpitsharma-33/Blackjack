@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BLACKJACK</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+  </head>
+
+  <style>
+    #message-el{
+        color:rgb(253, 71, 71) ;
+        text-decoration: none;
+    }
+  </style>
+
+  <body>
+    
+    <br />
+    <br />
+    <div class="container my-9" id="frame">
+      <div class="row featurette">
+        <div class="col-md-4 order-md-2">
+          <h2 id="title" class="my-2">
+            BLACKJACK
+            <!-- <span class="text-muted"></span> -->
+          </h2>
+          <p class="lead my-3">
+            Blackjack (formerly Black Jack and Vingt-Un) is a casino banking game. It is the most widely played casino banking game in the world. It uses decks of 52 cards and descends from a global family of casino banking games known as Twenty-One. This family of card games also includes the European games Vingt-et-Un and Pontoon, and the Russian game Ochko [ru]. Blackjack players do not compete against each other. The game is a comparing card game where each player competes against the dealer.
+
+          </p>
+        </div>
+        <div class="col-md-4 order-md-1" id="pic">
+            <img  class="bd-placeholder-img"
+            width="400"
+            height="400" src="https://source.unsplash.com/300x300/?cards" alt="">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#eee"></rect>
+            <text x="50%" y="50%" fill="#aaa" dy=".3em"></text>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <h1>BLACKJACK</h1>
+    <br>
+    <br>
+    <h1 id="message-el">Want to play a round ??</h1>
+    <br>
+    <h3 class="cards-el">CARDS :</h3>
+    <h3 id="sum-el">SUM :</h3>
+    <br>
+    <button onclick="startgame()" id="game-bt">START GAME</button>
+    <br>
+    <br>
+    <button onclick="newcard()" id="card-bt">NEW CARD</button>
+    <br>
+    <br>
+    <p id="player-el"></p>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <script src="index.js"></script>
+  </body>
+</html>

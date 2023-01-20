@@ -1,0 +1,53 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+#frame {
+  align-items: center;
+}
+
+#pic {
+  margin-left: 18%;
+}
+
+#title {
+  color: rgb(139, 190, 19);
+  text-align: center;
+  text-decoration: line-through;
+}
+
+h3,#message-el{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    color:rgb(253, 71, 71) ;
+}
+
+#player-el{
+    text-align: center;
+}
+
+#game-bt {
+  margin-left: 46.5%;
+  text-decoration: double;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgb(185, 252, 28);
+  font-weight: bold;
+}
+
+#card-bt {
+  margin-left: 46.8%;
+  text-decoration: double;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(20, 208, 232);
+  font-weight: bold;
+}
+
+h1{
+    color: rgb(253, 253, 252);
+    text-align: center;
+    text-decoration: underline;
+    
+}
