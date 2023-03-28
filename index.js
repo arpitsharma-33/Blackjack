@@ -46,12 +46,12 @@ function rendergame() {
   }
 
   if (sum < 21) {
-    messaage = "Do you want to draw a new card ?? 🙂";
+    messaage = "Do you want to draw a new card ?? ";
   } else if (sum === 21) {
-    messaage = "Wohooo!! you've got a blackjack 🤩";
+    messaage = "Wohooo!! you've got a blackjack ";
     hasblackjack = true;
   } else if (sum > 21) {
-    messaage = "You're out of the game 😭";
+    messaage = "You're out of the game ";
     isAlive = false;
   }
   messageEl.textContent = messaage;
