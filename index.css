@@ -8,6 +8,14 @@ body {
   margin-top: 30px;
 }
 
+#game-bt{
+  margin-bottom: 20px;
+}
+
+#cart-bt{
+  margin-bottom: 20px;
+}
+
 #pic {
   margin-left: 18%;
 }
